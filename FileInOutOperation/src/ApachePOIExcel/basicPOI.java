@@ -23,7 +23,7 @@ public class basicPOI {
         XSSFSheet sheet= workbook.getSheet("Sheet1");
         XSSFRow row= sheet.getRow(0);
         int collCount= row.getLastCellNum();
-        int rowCount = sheet.getLastRowNum()+1;
+        int rowCount = sheet.getLastRowNum()+1; // As row index start from zero
         
         System.out.print("Row "+rowCount+"\n"+"Column "+collCount);
 	}
