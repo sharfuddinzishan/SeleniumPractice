@@ -39,7 +39,7 @@
     <param name="SMTPProtocol" value="smtps" />
     <param name="SMTPPort" value="465" />
     <param name="SMTPUsername" value="selenium.zishan@gmail.com" />
-    <param name="SMTPPassword" value="C101001R" />
+    <param name="SMTPPassword" value="Your Password" />
     <param name="To" value="sharfuddin.zishan@gmail.com"/>
     <param name="From" value="selenium.zishan@gmail.com"/>
     <param name="Subject" value="Log4j Error in Project"/>
@@ -47,7 +47,7 @@
     
 
 <!--     <param name="SMTPUsername" value="sharfuddin_ahamed@yahoo.com"/>
-    <param name="SMTPPassword" value="ArshiEmrose@147320"/>
+    <param name="SMTPPassword" value="Your Password"/>
     <param name="To" value="sharfuddin.zishan@gmail.com,sharfuddin.cse@gmail.com"/>
     <param name="From" value="sharfuddin_ahamed@yahoo.com"/>
     <param name="Subject" value="Log4j Error in Project"/>
