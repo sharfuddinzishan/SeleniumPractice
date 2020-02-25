@@ -26,7 +26,7 @@
      <!-- HTML Appender -->
     
    <appender name="htmlAppender" class="org.apache.log4j.DailyRollingFileAppender">
-            <param name="File" value="C:/selenium/CoreJavaTut/Log4JProj/log.html"/>
+            <param name="File" value="src\\log.html"/>
     	<param name="DatePattern" value="'.'yyyy-MM-dd-HH'.html'"/>
     	<layout class="org.apache.log4j.HTMLLayout"/>
           <!--/layout-->
@@ -74,6 +74,7 @@
        <!--  <priority value ="error" />  -->
         <appender-ref ref="console" />
         <appender-ref ref="fileAppender" />
+        <appender-ref ref="htmlAppender" />
           <appender-ref ref="ERROR_MAIL" />
     </root>
     

@@ -1,3 +1,3 @@
-26/02/2020 01:17:15 DEBUG log4jMail.HelloLog4j - This is debug message
-26/02/2020 01:17:15 INFO  log4jMail.HelloLog4j - This is info message
-26/02/2020 01:17:15 FATAL log4jMail.HelloLog4j - This is fatal message
+26/02/2020 02:50:10 DEBUG log4jMail.HelloLog4j - This is debug message
+26/02/2020 02:50:10 INFO  log4jMail.HelloLog4j - This is info message
+26/02/2020 02:50:10 FATAL log4jMail.HelloLog4j - This is fatal message
