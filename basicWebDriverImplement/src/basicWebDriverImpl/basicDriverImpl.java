@@ -1,4 +1,4 @@
-package basicWebDriverImplement;
+package basicWebDriverImpl;
 
 import com.openqa.selenium.WebDriver;
 import com.openqa.selenium.chrome.ChromeDriver;
