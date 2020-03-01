@@ -12,10 +12,10 @@ public class navigationSelenium
 		System.setProperty("webdriver.opera.driver","operadriver.exe");
 		WebDriver driver = new OperaDriver();
 		
-		driver.get("https://www.guru99.com/take-screenshot-selenium-webdriver.html");
+		driver.navigate().to("https://www.guru99.com/take-screenshot-selenium-webdriver.html");
+//		driver.get("https://www.guru99.com/take-screenshot-selenium-webdriver.html");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
-		
 		
 		driver.findElement(By.xpath("//*[@id=\"demo1\"]/li[37]/a")).click();
 	
