@@ -1,0 +1,157 @@
+[1583339162.698][INFO]: Starting ChromeDriver 81.0.4044.20 (f006328e39a9769596eb506c8841c3004b24e747-refs/branch-heads/4044@{#244}) on port 17423
+[1583339162.698][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1583339163.451][INFO]: [a31ebb834713d2c034bf3a089b810341] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "C:\\Users\\LiarZishan\\AppData\\Local\\Chromium\\Application\\chrome.exe",
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "binary": "C:\\Users\\LiarZishan\\AppData\\Local\\Chromium\\Application\\chrome.exe",
+         "extensions": [  ]
+      }
+   }
+}
+[1583339163.453][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1583339163.453][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1583339163.457][INFO]: Launching chrome: "C:\Users\LiarZishan\AppData\Local\Chromium\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\LIARZI~1\AppData\Local\Temp\scoped_dir7680_63027116\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\LIARZI~1\AppData\Local\Temp\scoped_dir7680_385803005" data:,
+[1583339164.075][WARNING]: This version of ChromeDriver has not been tested with Chrome version 82.
+[1583339164.090][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1583339166.103][INFO]: [a31ebb834713d2c034bf3a089b810341] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "82.0.4075.0",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.20 (f006328e39a9769596eb506c8841c3004b24e747-refs/branch-heads/4044@{#244})",
+         "userDataDir": "C:\\Users\\LIARZI~1\\AppData\\Local\\Temp\\scoped_dir7680_385803005"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56779"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a31ebb834713d2c034bf3a089b810341"
+}
+[1583339166.169][INFO]: [a31ebb834713d2c034bf3a089b810341] COMMAND Navigate {
+   "url": "https://google.com"
+}
+[1583339166.169][INFO]: Waiting for pending navigations...
+[1583339166.172][INFO]: Done waiting for pending navigations. Status: ok
+[1583339167.319][INFO]: Waiting for pending navigations...
+[1583339167.518][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339167.711][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339167.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.010][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.221][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.322][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.423][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.525][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.626][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.838][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339168.939][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.604][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.708][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583339169.850][INFO]: Done waiting for pending navigations. Status: ok
+[1583339169.851][INFO]: [a31ebb834713d2c034bf3a089b810341] RESPONSE Navigate
+[1583339169.855][INFO]: [a31ebb834713d2c034bf3a089b810341] COMMAND GetTitle {
+
+}
+[1583339169.855][INFO]: Waiting for pending navigations...
+[1583339169.856][INFO]: Done waiting for pending navigations. Status: ok
+[1583339169.860][INFO]: Waiting for pending navigations...
+[1583339169.861][INFO]: Done waiting for pending navigations. Status: ok
+[1583339169.861][INFO]: [a31ebb834713d2c034bf3a089b810341] RESPONSE GetTitle "Google"
+[1583339169.866][INFO]: [a31ebb834713d2c034bf3a089b810341] COMMAND Quit {
+
+}
+[1583339169.947][INFO]: [a31ebb834713d2c034bf3a089b810341] RESPONSE Quit

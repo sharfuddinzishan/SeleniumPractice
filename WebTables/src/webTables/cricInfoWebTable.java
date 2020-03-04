@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class cricInfoWebTable 
 {
@@ -24,7 +25,9 @@ public class cricInfoWebTable
 
 	public static void main(String[] args) throws Throwable 
 	{
-		webDriver();
+//		firefoxDriver();
+		chromeDriver();
+		
 		String url ="https://www.cricbuzz.com/live-cricket-scorecard/27025/ban-vs-zim-2nd-odi-zimbabwe-tour-of-bangladesh-2020";
 		getSite(url);
 		
@@ -83,12 +86,20 @@ public class cricInfoWebTable
 
 	}
 	
-	public static void webDriver()
+	public static void chromeDriver()
 	{
 		System.setProperty("webdriver.chrome.driver", "chromedriver81.exe");
+		System.setProperty("webdriver.chrome.logfile", "./Chrome.log"); // Its generate logs file
 	    ChromeOptions opt = new ChromeOptions();
 	    opt.setBinary("C:\\Users\\LiarZishan\\AppData\\Local\\Chromium\\Application\\chrome.exe");
 	    driver = new ChromeDriver(opt);
+	}
+	
+	public static void firefoxDriver()
+	{
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "./Firefox.log");
+		driver = new FirefoxDriver();
 	}
 	
 	public static void getSite(String url) throws Throwable
