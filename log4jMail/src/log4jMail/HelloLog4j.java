@@ -2,7 +2,6 @@ package log4jMail;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 /*
  * Console
@@ -18,7 +17,7 @@ public class HelloLog4j {
 		
 		logger.debug("This is debug message");
 
-		System.out.println("Logic executed successfully....");
+		System.out.println("Log file executed successfully....");
 		logger.info("This is info message");
 		logger.fatal("This is fatal message");
 	}

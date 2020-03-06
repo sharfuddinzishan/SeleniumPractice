@@ -18,7 +18,7 @@ public class eventWebDriver {
 		WebDriver webDriver = new ChromeDriver(option);
 		
 		EventFiringWebDriver driver = new EventFiringWebDriver(webDriver);
-		abstractEventListener AbstractListener = new abstractEventListener();
+//		abstractEventListener AbstractListener = new abstractEventListener();
 		interfaceEventListener interfaceListener = new interfaceEventListener();
 		
 //		driver.register(AbstractListener);
