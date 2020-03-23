@@ -1,0 +1,3 @@
+1583681760981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LIARZI~1\\AppData\\Local\\Temp\\rust_mozprofileiIzKQ1"
+1583681763418	Marionette	INFO	Listening on port 55562
+1583681763604	Marionette	WARN	TLS certificate errors will be ignored for this session
