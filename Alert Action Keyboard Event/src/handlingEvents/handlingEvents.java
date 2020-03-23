@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 /*
- * Type of Operation’s perform on Alert:
+ * Type of Operationâ€™s perform on Alert:
  * accept() : To accept the alert.
  * dismiss() : To dismiss the alert.
  * getText() : To get the text of the alert.
@@ -40,8 +40,8 @@ public class handlingEvents
 		option.setBinary("C:\\Users\\LiarZishan\\AppData\\Local\\Chromium\\Application\\chrome.exe");
 		driver = new ChromeDriver();
 		
-        driver.get("https://the-internet.herokuapp.com/javascript_alerts");
-        driver.manage().window().maximize();
+		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		
 		xPath="//button[text()='Click for JS Alert']";
