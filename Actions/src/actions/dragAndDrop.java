@@ -39,7 +39,7 @@ public class dragAndDrop {
 		
 		acts.dragAndDrop(source, target).build().perform();
 		Thread.sleep(1500);
-		acts.clickAndHold(source).moveToElement(target,-10,-10).build().perform();
+		acts.clickAndHold(source).moveToElement(target,-10,-10).release(source).build().perform();
 		
 
 		Thread.sleep(5000);
