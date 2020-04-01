@@ -51,7 +51,7 @@ public class excelWrite
 			fos.flush();
 			fos.close();
 		} 
-
+			/* This needed to check nb of row column before insert operation*/
 			this.fis= new FileInputStream(excelFile);
 			this.workbook= new XSSFWorkbook(fis);
 			fis.close();

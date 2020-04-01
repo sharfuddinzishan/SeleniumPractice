@@ -29,6 +29,10 @@ public class mouseEvent
 		Locatable loc = (Locatable) driver.findElement(By.xpath("//*[@id=\"teamDropDown\"]/a"));
 		Coordinates co =loc.getCoordinates();
 		mouse.mouseMove(co);
+		Thread.sleep(2000);
+		mouse.mouseMove(co, 100, 100);
+		Thread.sleep(2000);
+		mouse.click(co);
 		
 		Thread.sleep(2000);
 		

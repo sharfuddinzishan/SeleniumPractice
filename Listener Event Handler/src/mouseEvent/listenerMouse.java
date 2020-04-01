@@ -71,7 +71,7 @@ public class listenerMouse implements WebDriverEventListener
 
 	@Override
 	public void afterNavigateTo(String url, WebDriver driver) {
-		// TODO Auto-generated method stub
+		System.out.println("After Navigate");
 		
 	}
 
@@ -107,13 +107,13 @@ public class listenerMouse implements WebDriverEventListener
 
 	@Override
 	public void beforeClickOn(WebElement element, WebDriver driver) {
-		// TODO Auto-generated method stub
+		System.out.println("Before Click On");
 		
 	}
 
 	@Override
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-		// TODO Auto-generated method stub
+		System.out.println("Before Find By");
 		
 	}
 
@@ -149,7 +149,7 @@ public class listenerMouse implements WebDriverEventListener
 
 	@Override
 	public void beforeNavigateTo(String url, WebDriver driver) {
-		// TODO Auto-generated method stub
+		System.out.println("Before Navigate");
 		
 	}
 

@@ -18,6 +18,10 @@ public class mainPOI
 		System.out.println("Before write Row Total: "+wr.getRowCount("login"));
 		System.out.println("Before Write Column Total: "+wr.getColCount("login")+"\n");
 		
+		wr.insertData("login","Minar",3,0);
+		wr.insertData("login","Samsuddin",3,1);
+		
+		
 		wr.insertData("login","Manha",4,0);
 		wr.insertData("login","Minnatun",4,1);
 		wr.insertData("login","Yes",4,2);

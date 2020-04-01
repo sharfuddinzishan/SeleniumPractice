@@ -44,24 +44,30 @@ public class moveToElement
 					
 			Actions actions = new Actions (driver);
 			actions.moveToElement(mainMenu).perform();
+			Thread.sleep(1500);
 			
 			driver.findElement(By.linkText("Web Design")).click();
+			Thread.sleep(1500);
 			
 			Locatable loc = (Locatable) driver.findElement(By.linkText("Guides"));
 			Coordinates co = loc.getCoordinates();
 			
 			EventFiringMouse mouse = new EventFiringMouse(driver, null);
 			mouse.mouseMove(co);
+			Thread.sleep(1500);
 			
 			WebElement subMenu =driver.findElement(By.linkText("Courses"));
-			Thread.sleep(3000);
 			((JavascriptExecutor)driver).executeScript("arguments[0].click();",subMenu);
+			Thread.sleep(3000);
 			
 			((JavascriptExecutor)driver).executeScript("window.location ='https://facebook.com'");
+			
 			System.out.println(driver.getCurrentUrl());
+			
 			String url = ((JavascriptExecutor)driver).executeScript("return document.URL;").toString();
 			System.out.println(url);
-			((JavascriptExecutor)driver).executeScript("alert('Close Alert');");
+			
+			((JavascriptExecutor)driver).executeScript("alert('Liar Zishan');");
 		}
 		
 		catch (Throwable e)

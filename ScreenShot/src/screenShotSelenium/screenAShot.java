@@ -1,18 +1,9 @@
 package screenShotSelenium;
 
 import java.io.File;
-import java.io.IOException;
-
 import javax.imageio.ImageIO;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.opera.OperaDriver;
-
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
@@ -25,6 +16,7 @@ public class screenAShot {
 		WebDriver driver = new OperaDriver();
 		
 		driver.get("http://bcc.gov.bd");
+		driver.manage().window().maximize();
 		
 //		Screenshot screenshot = new AShot().takeScreenshot(driver);
 		/*

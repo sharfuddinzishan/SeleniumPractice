@@ -1,8 +1,6 @@
 package screenShotSelenium;
 
 import java.io.File;
-import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -24,7 +22,7 @@ public class takeScreenShots
 		FileUtils.copyFile(srcFile,new File(System.getProperty("user.dir")+"\\screenshot\\screenshot.jpg")); 
 		
 		 /* 
-		  * FileUtils founnds in Apache Commons IO
+		  * FileUtils founds in Apache Commons IO
 		 * Selenium version 3.9.0 and above does not provide Apache Commons IO JAR.
 		 *You have to download manually this JAR
 		 */

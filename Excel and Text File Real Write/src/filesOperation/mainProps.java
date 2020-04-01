@@ -8,7 +8,7 @@ public class mainProps {
 		String path = "\\src\\utilities\\mainProps.properties";
 		new props(path);
 		
-		props.saveFile("Name", "Sharfuddin");
+		props.saveFile("Name", "Sharfuddin"); // Static Method can be call by Class name
 		props.saveFile("Id", "C101001R");
 		props.saveFile("Dept", "CSE");
 		
