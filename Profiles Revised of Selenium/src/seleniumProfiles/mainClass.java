@@ -8,8 +8,8 @@ public class mainClass
 	{
 		try
 		{
-//			Driver.firefoxDriver(url);
-			Driver.chromeDriver(url);
+			Driver.firefoxDriver(url);
+//			Driver.chromeDriver(url);
 		}
 		catch(Throwable e)
 		{

@@ -78,6 +78,8 @@ public class Driver
 	
 	public void iframe( int index )
 	{
+//		driver.switchTo().frame(driver.findElements(By.tagName("iframe")).get(index));
+		
 		int size = driver.findElements(By.tagName("iframe")).size();
 		for(int i=0; i<size; i++)
 		{

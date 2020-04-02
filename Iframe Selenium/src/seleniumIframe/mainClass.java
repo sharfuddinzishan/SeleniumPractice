@@ -1,6 +1,5 @@
 package seleniumIframe;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class mainClass 
@@ -20,7 +19,6 @@ public class mainClass
 //			driver.iframeName("iamframe");
 //			driver.iframeId("frame1");
 			driver.iframe(0);
-			
 			
 		}
 		catch(Throwable e)

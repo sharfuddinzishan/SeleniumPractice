@@ -1,6 +1,6 @@
-[1583683301.709][INFO]: Starting ChromeDriver 81.0.4044.20 (f006328e39a9769596eb506c8841c3004b24e747-refs/branch-heads/4044@{#244}) on port 5401
-[1583683301.709][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1583683302.518][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] COMMAND InitSession {
+[1585772273.470][INFO]: Starting ChromeDriver 81.0.4044.20 (f006328e39a9769596eb506c8841c3004b24e747-refs/branch-heads/4044@{#244}) on port 46418
+[1585772273.470][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585772274.312][INFO]: [28acefe950b9682dceffa3d301e49891] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -20,7 +20,7 @@
       }
    }
 }
-[1583683302.522][INFO]: Populating Preferences file: {
+[1585772274.316][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
    "account_tracker_service_last_update": "13228060379541923",
    "announcement_notification_service_first_run_time": "13227518656889475",
@@ -525,7 +525,7 @@
       "system_web_app_last_update": "82.0.4075.0"
    }
 }
-[1583683302.524][INFO]: Populating Local State file: {
+[1585772274.318][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -551,7 +551,7 @@
    },
    "password_manager": {
       "os_password_blank": false,
-      "os_password_last_changed": "13202389527273542"
+      "os_password_last_changed": "13202389527411429"
    },
    "plugins": {
       "metadata": {
@@ -788,10 +788,10 @@
          },
          "x-version": 40
       },
-      "resource_cache_update": "1583671618.220226"
+      "resource_cache_update": "1585729667.725352"
    },
    "policy": {
-      "last_statistics_update": "13228149216282958"
+      "last_statistics_update": "13230245421876614"
    },
    "profile": {
       "info_cache": {
@@ -815,7 +815,7 @@
             "user_name": ""
          },
          "Profile 1": {
-            "active_time": 1583681668.141106,
+            "active_time": 1585771822.191197,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_44",
             "background_apps": false,
             "gaia_given_name": "",
@@ -861,7 +861,7 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13228149216475401",
+      "last_daily_sample": "13230245422194719",
       "max_tabs_per_window": 1,
       "total_tab_count_max": 1,
       "window_count_max": 1
@@ -871,8 +871,8 @@
    },
    "uninstall_metrics": {
       "installation_date2": "1583045056",
-      "launch_count": "15",
-      "page_load_count": "96"
+      "launch_count": "53",
+      "page_load_count": "1545"
    },
    "updateclientdata": {
       "apps": {
@@ -880,119 +880,119 @@
             "cohort": "1:swl:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
+            "dlrc": 4839,
             "fp": "1.6dce22b9a11fa1e62b22559c4a157ce745e7fc63c6c6941a82cf11e8ecf65b0e",
-            "pf": "f4fec4ef-34a5-4170-a782-da8362bb102b",
+            "pf": "19c7a028-077b-4d85-8345-d8fca9c4a1e5",
             "pv": "3"
          },
          "copjbmjbojbakpaedmpkhmiplmmehfck": {
             "cohort": "1:p1x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
+            "dlrc": 4839,
             "fp": "1.207921137eee9c0831e0bd890330986c10dfd9382034491b82de3f86ae6915f7",
-            "pf": "50b501a7-52df-4219-86ea-745c61da2ae7",
+            "pf": "4a49d546-b7d5-46e8-a7df-42602e86f27e",
             "pv": "2018.9.6.0"
          },
          "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
             "cohort": "1:bm1:",
             "cohorthint": "M54ToM99",
             "cohortname": "M54ToM99",
-            "dlrc": 4815,
+            "dlrc": 4839,
             "fp": "1.715c48ce73b7ee71924470b10e920a4e23cd6f9c860f367d00feaff0d03eb52f",
-            "pf": "1a142708-2979-49cf-8020-543d1a8c9dbf",
+            "pf": "58216a82-34e1-476f-b8f6-fb30258de9f6",
             "pv": "9.11.0"
          },
          "ggkkehgbnfjpeggfpleeakpidbkibbmn": {
             "cohort": "1:ut9:",
             "cohorthint": "M80ToM89",
             "cohortname": "M80ToM89",
-            "dlrc": 4815,
-            "fp": "1.b1f3c285be4dc98e8a50c942beb5927f24c7163ac6c1b24e26902f4bd79bc20e",
-            "pf": "d8b7b32d-d94d-4b9a-8d2f-2e8d0dfbc595",
-            "pv": "2020.3.2.1202"
+            "dlrc": 4839,
+            "fp": "1.6c8e831187722e3b53d26536eea4f630045d299f0fe6031861128cfb959e7628",
+            "pf": "3d41c2ea-ff29-4de4-b8ad-609f0db1c8b1",
+            "pv": "2020.3.9.1143"
          },
          "giekcmmlnklenlaomppkphknjmnnpneh": {
             "cohort": "1:j5l:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
+            "dlrc": 4839,
             "fp": "1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace",
-            "pf": "3a05a7a2-9eb2-4043-9bc1-fc2281f7b778",
+            "pf": "c2172fc9-4bb5-49f3-a1b1-173a800fb48f",
             "pv": "7"
          },
          "hfnkpimlhhgieaddgfemjhofmfblmnib": {
             "cohort": "1:jcl:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
-            "fp": "1.f50b3f55d2dddf0a75e2e90a46edb84d08e612597369283d960ce1695693da63",
-            "pf": "8577b48f-87a0-49e8-a2cf-6f5d78d13b45",
-            "pv": "5737"
+            "dlrc": 4839,
+            "fp": "1.41ce9a8b4e68a41f1791457569eded2d1d2062ccd077f2b6aa8f9fbb223546d1",
+            "pf": "911b18b7-e868-4060-98fd-662c12c2fdc2",
+            "pv": "5785"
          },
          "hnimpnehoodheedghdeeijklkeaacbdc": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4815,
+            "dlrc": 4839,
             "fp": "1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23",
-            "pf": "159cf4ef-511b-4494-ac20-d200925a8b6c",
+            "pf": "e50cf3c7-d39e-44b5-a266-107f8501a531",
             "pv": "0.57.44.2492"
          },
          "jflookgnkcckhobaglndicnbbgbonegd": {
             "cohort": "1:s7x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
-            "fp": "1.2973d45c751a78bac5150fcb0176e6bf9ff81aebc34d6180345b59a2d97295df",
-            "pf": "9775652b-fdea-4a9d-8434-508b607bdad0",
-            "pv": "318"
+            "dlrc": 4839,
+            "fp": "1.f22cd90af1e2d1cc4192d2ab72e2df424a13f41e55d62a1d54c12d0bc8662e29",
+            "pf": "c519817a-6501-490c-b33c-67b5f63b9f43",
+            "pv": "590"
          },
          "khaoiebndkojlmppeemjhbpbandiljpe": {
             "cohort": "1:cux:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
+            "dlrc": 4839,
             "fp": "1.5cb8df53fe2b86bf838ea2c9ffc3d5ef8460f679a779ac8aa924b5afffd052cb",
-            "pf": "ac7fb0e4-b7bd-4766-bd63-6be7d44400c6",
+            "pf": "40efba22-2806-4121-98f7-3ef6303631b4",
             "pv": "42"
          },
          "llkgjffcdpffmhiakmfcdcblohccpfmo": {
-            "dlrc": 4815,
-            "pf": "c1148833-70b5-481d-b792-982b7567b8ae"
+            "dlrc": 4839,
+            "pf": "0711f4b6-ef73-48ba-bc4d-1f764b564a5f"
          },
          "obedbbhbpmojnkanicioggnmelmoomoc": {
             "cohort": "1:s6f:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4815,
-            "fp": "1.8b5b53eb094334cc9feed350027b3f76260c0d4f48793d5bd1be39bd0acb0d64",
-            "pf": "05040c13-d4bd-4a4c-80be-bb2167ed2631",
-            "pv": "20191123.283178609"
+            "dlrc": 4839,
+            "fp": "1.910e52c165259b75bd5e6931af5d60fc698c79a90cbdd0df8728aa381b28003a",
+            "pf": "e2725530-96ed-4976-9ae9-2fe765eab581",
+            "pv": "20200322.303326617"
          }
       }
    },
    "user_experience_metrics": {
       "low_entropy_source3": 5952,
       "machine_id": 1537984,
-      "session_id": 14,
+      "session_id": 52,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13228156762890216",
+         "browser_last_live_timestamp": "13230245421951583",
          "child_process_crash_count": 0,
-         "crash_count": 4,
-         "debugger_not_present": 15,
+         "crash_count": 29,
+         "debugger_not_present": 53,
          "debugger_present": 0,
          "deferred_count": 0,
          "discard_count": 1,
          "exited_cleanly": false,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 16,
+         "extension_renderer_launch_count": 69,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 15,
-         "page_load_count": 96,
+         "launch_count": 53,
+         "page_load_count": 1545,
          "plugin_stats2": [ {
             "crashes": 0,
             "instances": 0,
@@ -1003,7 +1003,7 @@
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 92,
+         "renderer_launch_count": 581,
          "session_end_completed": true,
          "stats_buildtime": "1580619600",
          "stats_version": "82.0.4075.0-64-devel",
@@ -1011,15 +1011,15 @@
          "version_mismatch_count": 0
       }
    },
-   "variations_crash_streak": 4,
+   "variations_crash_streak": 29,
    "was": {
       "restarted": false
    }
 }
-[1583683302.528][INFO]: Launching chrome: "C:\Users\LiarZishan\AppData\Local\Chromium\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\LIARZI~1\AppData\Local\Temp\scoped_dir9884_990824592\internal" --log-level=0 --no-first-run --password-store=basic --profile-directory="Profile 1" --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\LiarZishan\AppData\Local\Chromium\User Data"
-[1583683303.120][WARNING]: This version of ChromeDriver has not been tested with Chrome version 82.
-[1583683303.139][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1583683305.151][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] RESPONSE InitSession {
+[1585772274.326][INFO]: Launching chrome: "C:\Users\LiarZishan\AppData\Local\Chromium\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\LIARZI~1\AppData\Local\Temp\scoped_dir4188_827576252\internal" --log-level=0 --no-first-run --password-store=basic --profile-directory="Profile 1" --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\LiarZishan\AppData\Local\Chromium\User Data"
+[1585772275.035][WARNING]: This version of ChromeDriver has not been tested with Chrome version 82.
+[1585772275.087][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1585772277.108][INFO]: [28acefe950b9682dceffa3d301e49891] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
@@ -1029,7 +1029,7 @@
          "userDataDir": "C:\\Users\\LiarZishan\\AppData\\Local\\Chromium\\User Data"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:55996"
+         "debuggerAddress": "localhost:62045"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -1047,30 +1047,23 @@
       "unhandledPromptBehavior": "dismiss and notify",
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "f496a68e0ee0a0c10ef2114566f7d903"
+   "sessionId": "28acefe950b9682dceffa3d301e49891"
 }
-[1583683305.250][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] COMMAND Navigate {
+[1585772277.223][INFO]: [28acefe950b9682dceffa3d301e49891] COMMAND Navigate {
    "url": "https://google.com"
 }
-[1583683305.250][INFO]: Waiting for pending navigations...
-[1583683305.352][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683305.454][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683305.555][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683305.656][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683305.757][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683305.858][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683305.959][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683306.060][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683306.162][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683306.263][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683306.364][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583683306.447][INFO]: Done waiting for pending navigations. Status: disconnected: received Inspector.detached event
-[1583683306.483][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] RESPONSE Navigate
-[1583683306.496][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] COMMAND SetTimeouts {
+[1585772277.223][INFO]: Waiting for pending navigations...
+[1585772277.227][INFO]: Done waiting for pending navigations. Status: ok
+[1585772277.998][INFO]: Waiting for pending navigations...
+[1585772278.230][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585772278.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585772278.948][INFO]: Done waiting for pending navigations. Status: ok
+[1585772278.948][INFO]: [28acefe950b9682dceffa3d301e49891] RESPONSE Navigate
+[1585772278.960][INFO]: [28acefe950b9682dceffa3d301e49891] COMMAND SetTimeouts {
    "implicit": 3000
 }
-[1583683306.496][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] RESPONSE SetTimeouts
-[1583683311.501][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] COMMAND Quit {
+[1585772278.960][INFO]: [28acefe950b9682dceffa3d301e49891] RESPONSE SetTimeouts
+[1585772283.967][INFO]: [28acefe950b9682dceffa3d301e49891] COMMAND Quit {
 
 }
-[1583683311.542][INFO]: [f496a68e0ee0a0c10ef2114566f7d903] RESPONSE Quit
+[1585772284.130][INFO]: [28acefe950b9682dceffa3d301e49891] RESPONSE Quit

@@ -39,23 +39,29 @@ public class selectDropDown {
 		Thread.sleep(2500);
 		
 		selectByVisibleText(element,"Python");
+		Thread.sleep(1500);
 		selectByVisibleText(element2,"JUnit");
+		Thread.sleep(1500);
 		selectByVisibleText(element3,"HTML");
-		
-		Thread.sleep(2000);
+		Thread.sleep(1500);
 		
 		String testData = "SQL-Maven-CSS";
 		String[] str =testData.split("-");
 		
 		selectByVisibleText(element,str[0]);
+		Thread.sleep(1000);
 		selectByVisibleText(element2,str[1]);
+		Thread.sleep(1000);
 		selectByVisibleText(element3,str[2]);
 		
 		Thread.sleep(2000);
 		
 		selectByIndex(element,0);
+		Thread.sleep(1000);
 		selectByIndex(element2,0);
+		Thread.sleep(1000);
 		selectByIndex(element3,0);
+		Thread.sleep(1000);
 		
 //		isMultiple(element4);// Select class support only select tag	
 		isMultiple(element);

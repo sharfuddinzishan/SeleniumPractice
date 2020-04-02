@@ -1,3 +1,10 @@
-1583681760981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LIARZI~1\\AppData\\Local\\Temp\\rust_mozprofileiIzKQ1"
-1583681763418	Marionette	INFO	Listening on port 55562
-1583681763604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1585776582509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LIARZI~1\\AppData\\Local\\Temp\\rust_mozprofileXWCOhP"
+1585776585063	Marionette	INFO	Listening on port 64901
+1585776585171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1585776593417	Marionette	INFO	Stopped listening on port 64901
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370134,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

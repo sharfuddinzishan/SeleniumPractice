@@ -27,7 +27,7 @@ public class Driver
 		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "./Firefox.log");
 		
 		profiles = new ProfilesIni();
-		profile = profiles.getProfile("LiarZishan");
+		profile = profiles.getProfile("Selenium");
 		
 		options = new FirefoxOptions();
 		options.setCapability(FirefoxDriver.PROFILE, profile);
